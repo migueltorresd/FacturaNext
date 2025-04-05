@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "start:dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -60,6 +61,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
+    "@next/swc-wasm-nodejs": "^13.5.10",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
